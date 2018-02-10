@@ -4,13 +4,6 @@
 static char c=4;
 int i,k;
 
-void makespace3(int n)
-{
-    if(n==0)
-     return;
-    printf(" ");
-    makespace3(n-1);
-}
 
 
 void makediamond2(int n)
